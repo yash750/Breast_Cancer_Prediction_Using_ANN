@@ -247,8 +247,6 @@ Visual evidence:
 
 - Feature importance plot: [models/top5_fig4_feature_importance.png](/home/yash/Downloads/Desktop/DL_Project/models/top5_fig4_feature_importance.png)
 
-This is useful during presentation because it helps explain why the selected medical measurements matter.
-
 ## 11. Baseline vs Improved Model Comparison
 
 The file [src/compare_models.py](/home/yash/Downloads/Desktop/DL_Project/src/compare_models.py) compares:
@@ -294,13 +292,9 @@ These files are useful for presentation of results:
 - Saved trained model: [models/ann_model_top5.h5](/home/yash/Downloads/Desktop/DL_Project/models/ann_model_top5.h5)
 - Saved scaler: [models/scaler_top5.pkl](/home/yash/Downloads/Desktop/DL_Project/models/scaler_top5.pkl)
 
-## 13. Short Presentation Explanation
 
-You can explain the project like this:
 
-`I built a breast cancer prediction model using an Artificial Neural Network. Instead of using all 30 features, I selected the 5 most important features using an ensemble feature ranking approach. The model was trained with dropout and L2 regularization to reduce overfitting. I evaluated it using accuracy, precision, recall, F1-score, confusion matrix, ROC-AUC, 5-fold cross-validation, and sanity tests on known samples. On the unseen test set, the model achieved 96.49% accuracy and 0.9977 ROC-AUC, which shows very strong classification performance.`
-
-## 14. Conclusion
+## 13. Conclusion
 
 The evaluation evidence shows that:
 
